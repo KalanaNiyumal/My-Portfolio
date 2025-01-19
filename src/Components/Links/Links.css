@@ -1,0 +1,36 @@
+/* src/components/Navbar.css */
+
+.navbar-custom {
+    background-color: #0080ff !important; /* Apply your desired background color */
+  }
+  
+  .navbar-custom .navbar-brand {
+    color: #fff; /* Optional: Make text white if needed */
+  }
+  
+  .navbar-custom .nav-link {
+    color: #fff; /* Make nav link text white */
+    font-weight: bold; /* Make the text bold */
+    font-size: 1.2rem; /* Increase the font size */
+    margin-right: 20px; /* Increase the gap between the links */
+    padding: 10px 15px; /* Optional: Adjust the padding for better spacing */
+    transition: color 0.3s ease, transform 0.3s ease; /* Add smooth transition effect */
+  }
+  
+  /* Hover effect */
+  .navbar-custom .nav-link:hover {
+    color: #f8c41c; /* Change the text color to gold */
+    transform: translateY(-3px); /* Slightly lift the link */
+  }
+  
+  /* Optional: Change color of navbar when it's hovered */
+  .navbar-custom:hover {
+    background-color: #007acc; /* Darker blue for hover effect */
+  }
+  
+  /* Optional: Active link effect */
+  .navbar-custom .nav-link.active {
+    color: #f8c41c; /* Active link color */
+    font-weight: bold;
+  }
+  
