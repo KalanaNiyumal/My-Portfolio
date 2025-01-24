@@ -1,11 +1,11 @@
 .contact-container {
-  padding: 30px 0;
+  padding: 20px 0;
 }
 
 .contact-container h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: #007bff;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .contact-container .contact-card {
@@ -19,27 +19,14 @@
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
 }
 
-.contact-container .contact-info {
-  flex: 1;
-}
-
-.contact-container .contact-icon {
-  flex-shrink: 0;
-}
-
-.contact-container .contact-icon svg {
-  color: #007bff;
-  transition: color 0.3s ease;
-}
-
 .contact-container .contact-info h5 {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   color: #007bff;
 }
 
 .contact-container .list-group-item {
-  padding: 20px 20px;
-  font-size: 1.2rem;
+  padding: 15px;
+  font-size: 1rem;
   border: none;
   border-bottom: 1px solid #ddd;
 }
@@ -49,29 +36,47 @@
 }
 
 .contact-container .icon-style {
-  font-size: 1.5rem;
-  margin-right: 15px;
+  font-size: 1.2rem;
+  margin-right: 10px;
   color: #007bff;
 }
 
 .contact-container .contact-detail {
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #555;
 }
 
 .contact-container .contact-link {
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #007bff;
   text-decoration: none;
 }
 
 .contact-container .contact-link:hover {
   text-decoration: underline;
-
 }
 
-@media (min-width: 1200px) {
-  .contact-container .contact-card {
-    max-width: 1000px; /* Increased container width for larger screens */
+/* Mobile adjustments */
+@media (max-width: 576px) {
+  .contact-container h1 {
+    font-size: 1.75rem;
+  }
+
+  .contact-container .contact-info h5 {
+    font-size: 1.2rem;
+  }
+
+  .contact-container .list-group-item {
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+
+  .contact-container .icon-style {
+    font-size: 1rem;
+  }
+
+  .contact-container .contact-detail,
+  .contact-container .contact-link {
+    font-size: 0.9rem;
   }
 }
