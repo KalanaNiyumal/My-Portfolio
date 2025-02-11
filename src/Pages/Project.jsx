@@ -6,6 +6,8 @@ import HeaderContent from "../Components/HeaderContent/HeaderContent";
 import ManPower from "../assets/Images/ManPower.png";
 import Vehicle from "../assets/Images/vehicle.jpg";
 import ITPage from "../assets/Images/ITPage.jpg";
+import Budget from "../assets/Images/budget.jfif";
+import Movie from "../assets/Images/movie.png"
 
 function Project() {
   const projectData = [
@@ -26,6 +28,18 @@ function Project() {
       description:
         "A simple and intuitive website built with HTML and CSS, designed to educate users about key concepts and trends in information and technology, offering valuable insights in an accessible and user-friendly format.",
       image: ITPage,
+    },
+    {
+      title: "Budget Management App",
+      description:
+        "Developed a budget tracking application using React and Bootstrap, implementing features such as adding budgets, tracking expenses, total budget summary, and expense management (view/edit/delete). Utilized custom context and custom hooks for efficient state management and scalability.",
+      image: Budget,
+    },
+    {
+      title: "Movie Web Site",
+      description:
+        "Movie website is a React-based application that integrates the OMDB API to provide a seamless movie search experience. Users can search for movies by name, and the site displays the movie title, release year, and poster dynamically.",
+      image: Movie,
     },
   ];
 
